@@ -10,3 +10,7 @@ Check firewall status with `ufw status`
 Connect to the server: http://your_server_ip
 
 Restart apache server with: `sudo systemctl restart apache2`
+
+Went into /etc/apache2/sites-enabled/000-default-le-ssl.conf to change the website root to the build inside of our repo
+- Want to config the SSL site because this is being served with the secure connection
+- Restarted server after
