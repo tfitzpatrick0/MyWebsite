@@ -9,4 +9,4 @@ Check firewall status with <code>ufw status</code>
 
 Connect to the server: http://your_server_ip
 
-Restart apache with: <code>sudo systemctl restart apache2</code>
+Restart apache server with: <code>sudo systemctl restart apache2</code>
