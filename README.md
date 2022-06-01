@@ -8,3 +8,5 @@ Setting up Apache on Ubuntu: https://www.digitalocean.com/community/tutorials/ho
 Check firewall status with <code>ufw status</code>
 
 Connect to the server: http://your_server_ip
+
+Restart apache with: <code>sudo systemctl restart apache2</code>
