@@ -1,6 +1,7 @@
 # MyWebsite
 
 Hosting on DigitalOcean
+
 Domain through NameCheap
 
 VPS hosted on DigitalOcean: `ssh root@your_server_ip`
