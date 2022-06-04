@@ -4,6 +4,8 @@ Hosting on DigitalOcean
 
 Domain through NameCheap
 
+SSL Certificate generated with Certbot
+
 VPS hosted on DigitalOcean: `ssh root@your_server_ip`
 - View server info on DigitalOcean
 
