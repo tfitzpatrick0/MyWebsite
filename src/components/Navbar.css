@@ -3,6 +3,8 @@ nav {
     monospace;
   font-size: 120%;
   padding: 4rem 1rem;
+  text-align: center;
+  background-color: purple;
 }
 
 nav ul {
