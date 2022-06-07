@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/react */
+
 function Intro() {
   return (
     <div>

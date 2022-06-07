@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import "./index.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
