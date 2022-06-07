@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
-import "./index.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import "./index.css";
 
 function App() {
   return (
