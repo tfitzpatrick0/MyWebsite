@@ -2,9 +2,8 @@ nav {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   font-size: 120%;
-  padding: 4rem 1rem;
+  padding: 2rem;
   text-align: center;
-  background-color: purple;
 }
 
 nav ul {
@@ -15,25 +14,15 @@ nav ul {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+}
+
+nav li {
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 10px #888888;
 }
 
 [class*="fa-"] {
-  font-size: 150%;
-  color: blue;
-}
-
-nav h1 [class*="fa-"] {
   font-size: 100%;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  display: block;
-}
-
-nav a:hover,
-[class*="fa-"]:hover {
-  color: lightgreen;
 }

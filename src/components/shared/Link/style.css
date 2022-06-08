@@ -1,0 +1,10 @@
+.main-link {
+  text-decoration: none;
+  transition: font-size 300ms ease;
+}
+
+.main-link:hover {
+  text-decoration: none;
+  font-size: 110%;
+  transition: font-size 300ms ease;
+}
