@@ -1,23 +1,43 @@
 .hero-container {
-  height: 70vh;
-  text-align: center;
+  display: grid;
+  position: relative;
+  align-items: center;
   padding: 2rem 2rem;
 }
 
 .hero-text-block {
-  height: 80%;
+  font-family: Oxygen, monospace;
+  height: 60%;
   width: 50%;
-  z-index: 1;
+  position: absolute;
+  text-align: center;
+  grid-row: 1/7;
+  grid-column: 1/7;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 15px 15px 15px #0a0ef0;
+  box-shadow: 10px 10px 5px #0a0ef0;
 }
 
-.hero-background > img {
-  z-index: -1;
-  margin: 2rem 0 4rem 0;
+.hero-name {
+  font-size: 60px;
+  padding: 40px 0;
+}
+
+.hero-subtext {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.img-container {
+  grid-row: 6/7;
+  grid-column: 6/7;
+}
+
+.background-img {
+  height: 70%;
+  margin: 2rem 0 2rem 0;
   padding: 1rem;
-  border-left: 1px solid #a1c7e0;
-  border-top: 1px solid #a1c7e0;
-  border-radius: 25px;
+  border-right: 3px solid #a1c7e0;
+  border-top: 3px solid #a1c7e0;
+  border-radius: 55px;
 }
