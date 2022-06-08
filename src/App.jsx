@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Gradient class="orange-to-blue" />
       <Hero />
+      <Gradient class="blue-to-orange" />
     </>
   );
 }
