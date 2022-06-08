@@ -1,10 +1,11 @@
 const colors = {
-  teal: "#026E81",
-  aqua: "#0A8D8D",
+  teal: "#1DC198",
+  seaGreen: "#24F4C2",
   blue: "#0A0EF0",
   skyBlue: "#A1C7E0",
   coral: "#FF4858",
-  orange: "#FF9933",
+  orange: "#F28705",
+  honey: "#F2BE5C",
   white: "#F2F2F2",
 };
 

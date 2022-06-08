@@ -1,7 +1,6 @@
 nav {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-  font-size: 120%;
+  font-family: "Oxygen mono", monospace;
+  font-size: 22px;
   padding: 2rem;
   text-align: center;
 }
@@ -20,9 +19,5 @@ nav ul {
 nav li {
   padding: 1rem;
   border-radius: 15px;
-  box-shadow: 5px 10px #888888;
-}
-
-[class*="fa-"] {
-  font-size: 100%;
+  box-shadow: 5px 5px 5px #f2be5c;
 }
