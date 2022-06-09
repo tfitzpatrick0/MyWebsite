@@ -7,6 +7,7 @@ const colors = {
   orange: "#F28705",
   honey: "#F2BE5C",
   white: "#F2F2F2",
+  black: "#1A1A1A",
 };
 
 export { colors };

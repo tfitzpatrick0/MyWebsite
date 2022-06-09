@@ -17,7 +17,7 @@ function Navbar() {
           </Link>
         </li>
         <li css={{ backgroundColor: colors.blue }}>
-          <Link href="about.html" primary={colors.white} hover={colors.orange}>
+          <Link href="#about" primary={colors.white} hover={colors.orange}>
             About
           </Link>
         </li>

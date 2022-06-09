@@ -4,7 +4,7 @@ import Link from "../shared/Link";
 import { colors } from "../../constants.js";
 import ndPic from "../../images/nd_winter.png";
 
-function Intro() {
+function Hero() {
   return (
     <div className="hero-container" css={{ backgroundColor: colors.honey }}>
       <div className="hero-text-block" css={{ backgroundColor: colors.orange }}>
@@ -38,4 +38,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Hero;

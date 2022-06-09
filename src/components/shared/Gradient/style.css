@@ -1,9 +1,9 @@
 .orange-to-blue {
   background: linear-gradient(90deg, #f2be5c 20%, #a1c7e0 80%);
-  height: 4px;
+  height: 12px;
 }
 
 .blue-to-orange {
   background: linear-gradient(90deg, #a1c7e0 20%, #f2be5c 80%);
-  height: 4px;
+  height: 12px;
 }
