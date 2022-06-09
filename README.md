@@ -26,3 +26,5 @@ Went into /etc/apache2/sites-enabled/000-default-le-ssl.conf to change the websi
 
 - Want to config the SSL site because this is being served with the secure connection
 - Restarted server after
+
+Generate favicon: https://realfavicongenerator.net/
