@@ -92,7 +92,7 @@ function Projects() {
               className="project-overlay"
               css={{ color: colors.white, backgroundColor: colors.orange }}
             >
-              <a href="href=https://github.com/tfitzpatrick0/OS-FileSystem">
+              <a href="https://github.com/tfitzpatrick0/OS-FileSystem">
                 Project link
               </a>
               . Description - Lorem ipsum dolor sit amet, consectetur adipiscing
