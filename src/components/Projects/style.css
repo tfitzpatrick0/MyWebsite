@@ -1,0 +1,26 @@
+.projects-container {
+  width: 100%;
+  padding: 60px 0px;
+  display: grid;
+  place-items: center;
+  font-family: Oxygen, monospace;
+}
+
+.projects-header-block {
+  width: 80%;
+  margin: 30px 30px;
+}
+
+.projects-header {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #0a0ef0;
+}
+
+.projects-header-text {
+  margin: 0px;
+  padding: 50px 0px;
+  font-size: 40px;
+}
