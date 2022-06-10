@@ -18,8 +18,12 @@ function Navbar() {
           </Link>
         </li>
         <li css={{ backgroundColor: colors.blue }}>
-          <Link href="#contact" primary={colors.white} hover={colors.orange}>
-            Contact
+          <Link
+            href="../../resume.pdf"
+            primary={colors.white}
+            hover={colors.orange}
+          >
+            Resume
           </Link>
         </li>
         <li css={{ backgroundColor: colors.blue }}>
