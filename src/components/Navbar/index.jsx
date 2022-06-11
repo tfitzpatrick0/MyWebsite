@@ -28,16 +28,6 @@ function Navbar() {
         </li>
         <li css={{ backgroundColor: colors.blue }}>
           <Link
-            href="https://www.linkedin.com/in/tfitzpatrick3/"
-            primary={colors.white}
-            hover={colors.orange}
-          >
-            <span className="fab fa-linkedin" aria-hidden="true"></span>{" "}
-            LinkedIn
-          </Link>
-        </li>
-        <li css={{ backgroundColor: colors.blue }}>
-          <Link
             href="https://github.com/tfitzpatrick0/"
             primary={colors.white}
             hover={colors.orange}
