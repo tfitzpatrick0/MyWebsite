@@ -1,29 +1,19 @@
 .about-container {
   width: 100%;
   padding: 60px 0px;
-  align-items: center;
-  justify-content: center;
   font-family: Oxygen, monospace;
 }
 
 .about-header-block {
-  margin: 30px;
+  width: 85%;
+  margin: auto;
   display: grid;
-}
-
-.about-linkedin {
-  grid-row: 1/2;
-  width: 20%;
-  margin-left: 10%;
-  margin-right: 25%;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 10px 10px 20px #f2be5c;
+  grid-template-columns: repeat(14, 1fr);
 }
 
 .about-header {
   grid-row: 1/2;
-  width: 40%;
+  grid-column: 8/13;
   text-align: center;
   border-radius: 15px;
   box-shadow: 10px 10px 20px #f2be5c;
@@ -31,8 +21,27 @@
 
 .about-header-text {
   margin: 0px;
-  padding: 50px 0px;
+  padding: 30px 0px;
   font-size: 40px;
+}
+
+.about-link {
+  grid-row: 1/2;
+  grid-column: 14/15;
+  position: relative;
+  height: 70%;
+  margin: auto 0;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #f2be5c;
+}
+
+.about-link-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  font-size: 30px;
 }
 
 .about-info-block {
