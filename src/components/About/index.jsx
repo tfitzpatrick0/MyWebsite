@@ -35,13 +35,16 @@ function About() {
       </div>
       <div className="about-info-block">
         <h2 className="about-info-text" css={{ color: colors.black }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am a rising senior undergraduate student in the College of
+          Engineering at Notre Dame. I am majoring in Computer Science, an area
+          of interest and excitement that I want to continuing exploring further
+          through my courses, extracurricular involvement, and internship/job
+          opportunities. I am particularly interested in roles involving
+          front-end software and web application development.
+          <br />
+          <br />
+          Some of my hobbies outside of school include lifting, gaming, and
+          getting absolutely boiled with the lads at Newfs.
         </h2>
       </div>
     </div>
