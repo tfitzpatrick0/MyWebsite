@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
-import Link from "../shared/Link";
 import "./style.css";
+import Link from "../shared/Link";
 import { colors } from "../../constants.js";
 
 function Navbar() {
@@ -32,7 +32,8 @@ function Navbar() {
             primary={colors.white}
             hover={colors.orange}
           >
-            <span class="fab fa-linkedin" aria-hidden="true"></span> LinkedIn
+            <span className="fab fa-linkedin" aria-hidden="true"></span>{" "}
+            LinkedIn
           </Link>
         </li>
         <li css={{ backgroundColor: colors.blue }}>
@@ -41,7 +42,8 @@ function Navbar() {
             primary={colors.white}
             hover={colors.orange}
           >
-            <span class="fab fa-github-square" aria-hidden="true"></span> Github
+            <span className="fab fa-github-square" aria-hidden="true"></span>{" "}
+            Github
           </Link>
         </li>
       </ul>

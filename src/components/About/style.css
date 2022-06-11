@@ -1,21 +1,29 @@
 .about-container {
   width: 100%;
   padding: 60px 0px;
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   font-family: Oxygen, monospace;
 }
 
 .about-header-block {
-  width: 85%;
   margin: 30px;
+  display: grid;
+}
+
+.about-linkedin {
+  grid-row: 1/2;
+  width: 20%;
+  margin-left: 10%;
+  margin-right: 25%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #f2be5c;
 }
 
 .about-header {
+  grid-row: 1/2;
   width: 40%;
-  margin-left: auto;
   text-align: center;
   border-radius: 15px;
   box-shadow: 10px 10px 20px #f2be5c;
