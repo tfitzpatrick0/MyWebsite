@@ -39,12 +39,12 @@ function About() {
           Engineering at Notre Dame. I am majoring in Computer Science, an area
           of interest and excitement that I want to continuing exploring further
           through my courses, extracurricular involvement, and internship/job
-          opportunities. I am particularly interested in roles involving
-          front-end software and web application development.
+          opportunities. I am particularly interested in the field of front-end
+          software and web application development.
           <br />
           <br />
-          Some of my hobbies outside of school include lifting, gaming, and
-          getting absolutely boiled with the lads at Newfs.
+          Some of my other interests include lifting, gaming, business and
+          sports.
         </h2>
       </div>
     </div>
