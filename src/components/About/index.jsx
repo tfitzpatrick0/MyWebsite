@@ -11,11 +11,10 @@ function About() {
       css={{ backgroundColor: colors.skyBlue }}
     >
       <div className="about-header-block">
-        <div
-          className="about-header"
-          css={{ color: colors.white, backgroundColor: colors.blue }}
-        >
-          <h1 className="about-header-text">About Me</h1>
+        <div className="about-header" css={{ backgroundColor: colors.blue }}>
+          <h1 className="about-header-text" css={{ color: colors.white }}>
+            About Me
+          </h1>
         </div>
         <div className="about-link" css={{ backgroundColor: colors.blue }}>
           <div className="about-link-text">

@@ -8,12 +8,14 @@
 
 .projects-header-block {
   width: 85%;
-  margin: 30px 30px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
 }
 
 .projects-header {
-  width: 40%;
-  justify-content: center;
+  grid-row: 1/2;
+  grid-column: 1/6;
   text-align: center;
   border-radius: 15px;
   box-shadow: 10px 10px 20px #0a0ef0;
@@ -21,8 +23,27 @@
 
 .projects-header-text {
   margin: 0px;
-  padding: 50px 0px;
+  padding: 30px 0px;
   font-size: 40px;
+}
+
+.projects-link {
+  grid-row: 1/2;
+  grid-column: 7/8;
+  position: relative;
+  height: 70%;
+  margin: auto 0;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #0a0ef0;
+}
+
+.projects-link-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  font-size: 30px;
 }
 
 .projects-info-block {

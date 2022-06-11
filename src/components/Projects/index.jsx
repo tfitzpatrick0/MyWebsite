@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import "./style.css";
+import Link from "../shared/Link";
 import { colors } from "../../constants.js";
 
 import facerec from "../../images/facerec.png";
@@ -16,9 +17,22 @@ function Projects() {
       <div className="projects-header-block">
         <div
           className="projects-header"
-          css={{ color: colors.white, backgroundColor: colors.orange }}
+          css={{ backgroundColor: colors.orange }}
         >
-          <h1 className="projects-header-text">My Projects</h1>
+          <h1 className="projects-header-text" css={{ color: colors.white }}>
+            My Projects
+          </h1>
+        </div>
+        <div className="projects-link" css={{ backgroundColor: colors.orange }}>
+          <div className="projects-link-text">
+            <Link
+              href="https://github.com/tfitzpatrick0/"
+              primary={colors.white}
+              hover={colors.skyBlue}
+            >
+              <span className="fab fa-github" aria-hidden="true"></span>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="projects-info-block">
