@@ -64,8 +64,11 @@ function Projects() {
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
               <li>HTML/CSS</li>
+              <li>~</li>
               <li>JavaScript</li>
+              <li>~</li>
               <li>PHP</li>
+              <li>~</li>
               <li>MySQL</li>
             </ul>
           </div>
@@ -94,6 +97,7 @@ function Projects() {
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
               <li>Python</li>
+              <li>~</li>
               <li>Machine Learning</li>
             </ul>
           </div>
@@ -126,6 +130,8 @@ function Projects() {
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
               <li>C</li>
+              <li>~</li>
+              <li>Linux</li>
             </ul>
           </div>
           <img

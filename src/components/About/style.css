@@ -1,6 +1,7 @@
 .about-container {
   width: 100%;
   padding: 60px 0px;
+  place-items: center;
   font-family: Oxygen, monospace;
 }
 
@@ -62,5 +63,5 @@
 
 .about-info-block {
   width: 75%;
-  margin: 30px;
+  margin: 50px auto;
 }
