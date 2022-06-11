@@ -25,6 +25,22 @@
   font-size: 40px;
 }
 
+.about-divider {
+  grid-row: 1/2;
+  grid-column: 13/14;
+  margin-left: 10px;
+  position: relative;
+}
+
+.about-divider-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  font-size: 30px;
+}
+
 .about-link {
   grid-row: 1/2;
   grid-column: 14/15;

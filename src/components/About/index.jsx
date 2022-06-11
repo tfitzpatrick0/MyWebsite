@@ -16,6 +16,11 @@ function About() {
             About Me
           </h1>
         </div>
+        <div className="about-divider">
+          <div className="about-divider-img" css={{ color: colors.black }}>
+            <span className="fas fa-code" aria-hidden="true"></span>
+          </div>
+        </div>
         <div className="about-link" css={{ backgroundColor: colors.blue }}>
           <div className="about-link-text">
             <Link

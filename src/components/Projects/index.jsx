@@ -23,6 +23,11 @@ function Projects() {
             My Projects
           </h1>
         </div>
+        <div className="projects-divider">
+          <div className="projects-divider-img" css={{ color: colors.black }}>
+            <span className="fas fa-code" aria-hidden="true"></span>
+          </div>
+        </div>
         <div className="projects-link" css={{ backgroundColor: colors.orange }}>
           <div className="projects-link-text">
             <Link
