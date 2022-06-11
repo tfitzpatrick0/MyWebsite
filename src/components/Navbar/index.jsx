@@ -26,16 +26,6 @@ function Navbar() {
             Resume
           </Link>
         </li>
-        <li css={{ backgroundColor: colors.blue }}>
-          <Link
-            href="https://github.com/tfitzpatrick0/"
-            primary={colors.white}
-            hover={colors.orange}
-          >
-            <span className="fab fa-github-square" aria-hidden="true"></span>{" "}
-            Github
-          </Link>
-        </li>
       </ul>
     </nav>
   );
