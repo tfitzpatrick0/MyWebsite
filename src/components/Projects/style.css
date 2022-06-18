@@ -1,7 +1,6 @@
 .projects-container {
   width: 100%;
   padding: 60px 0px;
-  display: grid;
   place-items: center;
   font-family: Oxygen, monospace;
 }
