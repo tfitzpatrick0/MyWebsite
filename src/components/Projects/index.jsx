@@ -57,14 +57,16 @@ function Projects() {
               className="project-overlay"
               css={{ color: colors.white, backgroundColor: colors.orange }}
             >
-              Description - Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+              This was the semester project for my Databases Concepts course.
+              For this project, my group and I created a web app that interacts
+              with a MySQL database containing information about music, and
+              utilizes the free Spotify API to implement additional features
+              using this data. Users are able to search the database for a song,
+              and upon selection the user is presented with additional
+              information, new recommendations, and the ability to interact with
+              their Spotify account in-app. This project was created using basic
+              HTML/CSS and JavaScript to design the frontend, and PHP to design
+              MySQL queries for our database.
             </p>
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
