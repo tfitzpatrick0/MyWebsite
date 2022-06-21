@@ -57,16 +57,15 @@ function Projects() {
               className="project-overlay"
               css={{ color: colors.white, backgroundColor: colors.orange }}
             >
-              This was the semester project for my Databases Concepts course.
-              For this project, my group and I created a web app that interacts
-              with a MySQL database containing information about music, and
-              utilizes the free Spotify API to implement additional features
-              using this data. Users are able to search the database for a song,
-              and upon selection the user is presented with additional
-              information, new recommendations, and the ability to interact with
-              their Spotify account in-app. This project was created using basic
-              HTML/CSS and JavaScript to design the frontend, and PHP to design
-              MySQL queries for our database.
+              For this project in my Databases Concepts course, my group and I
+              created a web app that interacts with a MySQL database containing
+              information about music, and utilizes the free Spotify API to
+              implement additional features using this data. Users are able to
+              search the database for a song, and upon selection the user is
+              presented with additional information, new recommendations, and
+              the ability to interact with their Spotify account in-app. This
+              project was created using basic HTML/CSS and JavaScript to design
+              the frontend, and PHP to design MySQL queries for our database.
             </p>
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
@@ -97,14 +96,14 @@ function Projects() {
               className="project-overlay"
               css={{ color: colors.white, backgroundColor: colors.orange }}
             >
-              Description - Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+              For this project in my Computer Vision course, my partner and I
+              developed a facial recognition system. The first iteration of the
+              program was only focused on recognizing and detecting faces within
+              a dataset. After reaching a high level of success, we added the
+              ability for our system to detect and recognize faces in real time.
+              This works by taking around 100 photos of someone's face using the
+              webcam, detecting the facial region, and adding them to our
+              dataset and model.
             </p>
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
@@ -135,14 +134,15 @@ function Projects() {
               className="project-overlay"
               css={{ color: colors.white, backgroundColor: colors.orange }}
             >
-              Description - Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+              This is the fourth project for my Operating Systems course. In
+              this project, my partner and I developed a library in C that
+              emulated the Unix file system by first loading a disk image into
+              memory and efficiently performing file system operations on the
+              image. In order to develop this program, we needed to learn about
+              proper system calls and the structure of the Unix filesystem. In
+              addition to this, we needed to continuously maintain proper memory
+              allocation, which was the cause of the majority of errors during
+              our development process.
             </p>
             <h4 css={{ color: colors.black }}>Technologies used include:</h4>
             <ul css={{ color: colors.black }}>
