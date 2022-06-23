@@ -2,7 +2,7 @@
 import "./style.css";
 
 function Gradient(props) {
-  return <div class={props.class}></div>;
+  return <div className={props.class}></div>;
 }
 
 export default Gradient;

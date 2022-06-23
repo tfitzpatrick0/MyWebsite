@@ -1,11 +1,11 @@
 /** @jsxImportSource @emotion/react */
 import "./style.css";
 import Link from "../shared/Link";
-import { colors } from "../../constants.js";
+import Project from "./Project";
+import { colors, projectsList, images } from "../../constants.js";
 
 import facerec from "../../images/facerec.png";
 import filesys from "../../images/filesys.png";
-import muse from "../../images/muse.png";
 
 function Projects() {
   return (
@@ -41,45 +41,12 @@ function Projects() {
         </div>
       </div>
       <div className="projects-info-block">
-        <div className="project-info-regular">
-          <div className="project-info-text">
-            <h4 css={{ color: colors.black }}>Databases Project</h4>
-            <h2>
-              <Link
-                href="https://github.com/tfitzpatrick0/Databases-MuseWebApp"
-                primary={colors.blue}
-                hover={colors.coral}
-              >
-                Muse Web App
-              </Link>
-            </h2>
-            <p
-              className="project-overlay"
-              css={{ color: colors.white, backgroundColor: colors.orange }}
-            >
-              For this project in my Databases Concepts course, my group and I
-              created a web app that interacts with a MySQL database containing
-              information about music, and utilizes the free Spotify API to
-              implement additional features using this data. Users are able to
-              search the database for a song, and upon selection the user is
-              presented with additional information, new recommendations, and
-              the ability to interact with their Spotify account in-app. This
-              project was created using basic HTML/CSS and JavaScript to design
-              the frontend, and PHP to design MySQL queries for our database.
-            </p>
-            <h4 css={{ color: colors.black }}>Technologies used include:</h4>
-            <ul css={{ color: colors.black }}>
-              <li>HTML/CSS</li>
-              <li>~</li>
-              <li>JavaScript</li>
-              <li>~</li>
-              <li>PHP</li>
-              <li>~</li>
-              <li>MySQL</li>
-            </ul>
-          </div>
-          <img className="project-image" src={muse} alt="Muse Code." />
-        </div>
+        <Project
+          layout="project-info-regular"
+          project={projectsList[0]}
+          href="https://github.com/tfitzpatrick0/Databases-MuseWebApp"
+          image={images.museImg}
+        />
         <div className="project-info-reverse">
           <div className="project-info-text">
             <h4 css={{ color: colors.black }}>Computer Vision Project</h4>
