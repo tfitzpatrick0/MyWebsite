@@ -26,7 +26,7 @@ function Project(props) {
           ))}
         </ul>
       </div>
-      <img className="project-image" src={props.image} alt={props.image[1]} />
+      <img className="project-image" src={props.image} alt="" />
     </div>
   );
 }

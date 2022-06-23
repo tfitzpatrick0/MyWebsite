@@ -37,7 +37,7 @@ const projectsList = [
 ];
 
 const images = {
-  museImg: [muse, "Muse Homepage"],
+  museImg: muse,
 };
 
 export { colors, projectsList, images };
