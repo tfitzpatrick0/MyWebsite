@@ -1,8 +1,8 @@
 nav {
-  font-family: "Oxygen mono", monospace;
-  font-size: 22px;
   padding: 2rem;
   text-align: center;
+  font-family: "Oxygen mono", monospace;
+  font-size: 22px;
 }
 
 nav ul {

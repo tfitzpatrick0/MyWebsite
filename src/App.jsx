@@ -1,23 +1,17 @@
 /** @jsxImportSource @emotion/react */
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Gradient from "./components/shared/Gradient";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Resume from "./components/Resume";
 import "./index.css";
-// import { colors } from "./constants.js";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Gradient class="orange-to-blue" />
-      <Hero />
-      <Gradient class="blue-to-orange" />
-      <About />
-      <Gradient class="orange-to-blue" />
-      <Projects />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
