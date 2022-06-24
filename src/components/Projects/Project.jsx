@@ -9,7 +9,11 @@ function Project(props) {
       <div className="project-info-text">
         <h4 css={{ color: colors.black }}>{props.project.title}</h4>
         <h2>
-          <Link href={props.href} primary={colors.blue} hover={colors.coral}>
+          <Link
+            href={props.project.href}
+            primary={colors.blue}
+            hover={colors.coral}
+          >
             {props.project.name}
           </Link>
         </h2>
@@ -26,7 +30,7 @@ function Project(props) {
           ))}
         </ul>
       </div>
-      <img className="project-image" src={props.image} alt="" />
+      <img className="project-image" src={props.project.image} alt="" />
     </div>
   );
 }

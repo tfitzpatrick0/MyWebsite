@@ -2,7 +2,7 @@
 import "./style.css";
 import Link from "../shared/Link";
 import Project from "./Project";
-import { colors, projectsList, images } from "../../constants.js";
+import { colors, projectsList } from "../../constants.js";
 
 function Projects() {
   return (
@@ -38,24 +38,9 @@ function Projects() {
         </div>
       </div>
       <div className="projects-info-block">
-        <Project
-          layout="project-info-regular"
-          project={projectsList[0]}
-          href="https://github.com/tfitzpatrick0/Databases-MuseWebApp"
-          image={images.museImg}
-        />
-        <Project
-          layout="project-info-reverse"
-          project={projectsList[1]}
-          href="https://github.com/tfitzpatrick0/CV-FaceRecognition"
-          image={images.facerecImg}
-        />
-        <Project
-          layout="project-info-regular"
-          project={projectsList[2]}
-          href="https://github.com/tfitzpatrick0/OS-FileSystem"
-          image={images.filesysImg}
-        />
+        <Project layout="project-info-regular" project={projectsList[0]} />
+        <Project layout="project-info-reverse" project={projectsList[1]} />
+        <Project layout="project-info-regular" project={projectsList[2]} />
       </div>
     </div>
   );
