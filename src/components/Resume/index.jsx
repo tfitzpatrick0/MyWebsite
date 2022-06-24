@@ -15,9 +15,9 @@ function Resume() {
         </Link>
       </header>
       <Gradient class="orange-to-blue" />
-      <div className="resume-container">
+      <div className="resume-container" css={{ backgroundColor: colors.honey }}>
         <Document file={resume} options={{ workerSrc: "pdf.worker.js" }}>
-          <Page pageNumber={1} />
+          <Page pageNumber={1} scale={2.0} />
         </Document>
       </div>
     </>

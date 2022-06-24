@@ -4,3 +4,10 @@ header {
   font-family: "Oxygen mono", monospace;
   font-size: 30px;
 }
+
+.resume-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
