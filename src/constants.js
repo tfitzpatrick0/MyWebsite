@@ -39,7 +39,7 @@ const projectsList = [
     description:
       "This was the final project for my Operating Systems course. In this project, my partner and I developed a library in C that emulated the Unix file system by first loading a disk image into memory and efficiently performing file system operations on the image. In order to develop this program, we needed to learn about system calls and the structure of the Unix filesystem. In addition to this, we needed to continuously maintain proper memory allocation, which was the cause of the majority of errors during our development process.",
     technologies: ["C", "Linux"],
-    href: "https://github.com/tfitzpatrick0/OS-FileSystem",
+    href: "https://github.com/tfitzpatrick0/OSproject4-FileSystem",
     image: filesys,
   },
 ];
