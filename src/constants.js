@@ -25,7 +25,7 @@ const projectsList = [
     image: muse,
   },
   {
-    name: "Face Recognition System",
+    name: "Facial Recognition",
     title: "Computer Vision Project",
     description:
       "For this project in my Computer Vision course, my partner and I developed a facial recognition system. The first iteration of the program was only focused on recognizing and detecting faces within a dataset. After reaching a high level of success, we added the ability for our system to detect and recognize faces in real time. This works by taking around 100 photos of someone's face using the webcam, detecting the facial region, and adding them to our dataset and model for recognition.",

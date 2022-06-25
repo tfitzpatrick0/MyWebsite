@@ -7,7 +7,7 @@ import Gradient from "../shared/Gradient";
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <Navbar />
       <Gradient class="orange-to-blue" />
       <Hero />
@@ -15,7 +15,7 @@ function Home() {
       <About />
       <Gradient class="orange-to-blue" />
       <Projects />
-    </>
+    </div>
   );
 }
 

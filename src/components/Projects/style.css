@@ -103,6 +103,7 @@
 
 .project-info-regular,
 .project-info-reverse {
+  margin-bottom: 10px;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
 }

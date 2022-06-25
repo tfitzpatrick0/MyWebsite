@@ -64,4 +64,9 @@
 .about-info-block {
   width: 75%;
   margin: 50px auto;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 15px;
+  border-left: 3px solid #f2be5c;
+  border-right: 3px solid #f2be5c;
 }

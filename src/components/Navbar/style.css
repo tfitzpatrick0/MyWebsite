@@ -2,7 +2,7 @@ nav {
   padding: 2rem;
   text-align: center;
   font-family: "Oxygen mono", monospace;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 nav ul {
@@ -13,11 +13,5 @@ nav ul {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-}
-
-nav li {
-  padding: 1rem;
-  border-radius: 15px;
-  box-shadow: 5px 5px 10px #f2be5c;
+  gap: 5rem;
 }
