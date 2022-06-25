@@ -7,7 +7,7 @@ import Gradient from "../shared/Gradient";
 
 function Home() {
   return (
-    <div className="home">
+    <div>
       <Navbar />
       <Gradient class="orange-to-blue" />
       <Hero />
