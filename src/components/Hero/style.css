@@ -6,7 +6,6 @@
 }
 
 .hero-text-block {
-  font-family: Oxygen, monospace;
   height: 60%;
   width: 50%;
   position: absolute;
@@ -14,6 +13,7 @@
   grid-row: 1/7;
   grid-column: 1/7;
   padding: 30px;
+  font-family: Oxygen, monospace;
   border-radius: 15px;
   box-shadow: 10px 10px 20px #0a0ef0;
 }
