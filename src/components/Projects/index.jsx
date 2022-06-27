@@ -38,9 +38,13 @@ function Projects() {
         </div>
       </div>
       <div className="projects-info-block">
-        <Project layout="project-info-regular" project={projectsList[0]} />
-        <Project layout="project-info-reverse" project={projectsList[1]} />
-        <Project layout="project-info-regular" project={projectsList[2]} />
+        {projectsList.map((project, index) =>
+          index % 2 === 0 ? (
+            <Project layout="project-info-regular" project={project} />
+          ) : (
+            <Project layout="project-info-reverse" project={project} />
+          )
+        )}
       </div>
     </div>
   );
