@@ -4,7 +4,7 @@ import { Document, Page } from "react-pdf";
 import Link from "../shared/Link";
 import Gradient from "../shared/Gradient";
 import { colors } from "../../constants.js";
-import resume from "../../images/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 function Resume() {
   return (

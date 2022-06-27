@@ -2,7 +2,7 @@
 import "./style.css";
 import Link from "../shared/Link";
 import { colors } from "../../constants.js";
-import ndPic from "../../images/nd_winter.png";
+import ndPic from "../../assets/nd_winter.png";
 
 function Hero() {
   return (
