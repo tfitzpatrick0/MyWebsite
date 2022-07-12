@@ -35,7 +35,7 @@ function About() {
       </div>
       <div className="about-info-block">
         <h2 className="about-info-text" css={{ color: colors.black }}>
-          I am a rising senior undergraduate student in the College of
+          I'm a rising senior undergraduate student in the College of
           Engineering at Notre Dame. I am majoring in Computer Science, an area
           of interest and excitement that I want to continuing exploring further
           through my courses, extracurricular involvement, and internship/job
