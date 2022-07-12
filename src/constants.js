@@ -38,6 +38,15 @@ const projectsList = [
     href: "https://github.com/tfitzpatrick0/OSproject4-FileSystem",
     image: require("./assets/filesys.png"),
   },
+  {
+    name: "Gains Tracker",
+    title: "React Native App",
+    description:
+      "This was a personal project that I worked on for fitness and tracking gym progress. I decided to use React Native to create this app because I was already familiar with React and I also wanted cross-platform compatibility. The app does not have a backend component, so I decided to use local device storage to maintain user-inputted data when opening and closing the app. Within the app, the user can create and customize workout routines and log results to view their personal progress.",
+    technologies: ["JavaScript", "React Native"],
+    href: "https://github.com/tfitzpatrick0/GainsTracker",
+    image: require("./assets/gainsTracker.png"),
+  },
 ];
 
 export { colors, projectsList };
