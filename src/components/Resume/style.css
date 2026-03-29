@@ -1,17 +1,1 @@
-.resume {
-  font-family: "Oxygen mono", monospace;
-}
-
-.resume > header {
-  padding: 2rem;
-  text-align: center;
-  font-size: 25px;
-}
-
-.resume-container {
-  min-height: 100vh;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+/* styles handled by Emotion */

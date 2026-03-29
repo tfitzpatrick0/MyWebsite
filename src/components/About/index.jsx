@@ -1,53 +1,72 @@
 /** @jsxImportSource @emotion/react */
-import "./style.css";
-import Link from "../shared/Link";
-import { colors } from "../../constants.js";
+import { css } from "@emotion/react";
+import { colors } from "../../constants";
+
+const sectionStyles = css`
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+`;
+
+const labelStyles = css`
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: ${colors.accent};
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+`;
+
+const headingStyles = css`
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  color: ${colors.textPrimary};
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+`;
+
+const bodyStyles = css`
+  font-size: 1.05rem;
+  color: ${colors.textSecondary};
+  line-height: 1.8;
+  max-width: 640px;
+`;
+
+const dividerStyles = css`
+  width: 40px;
+  height: 2px;
+  background: ${colors.border};
+  margin-bottom: 2rem;
+`;
 
 function About() {
   return (
-    <div
-      id="about"
-      className="about-container"
-      css={{ backgroundColor: colors.skyBlue }}
-    >
-      <div className="about-header-block">
-        <div className="about-header" css={{ backgroundColor: colors.blue }}>
-          <h1 className="about-header-text" css={{ color: colors.white }}>
-            About Me
-          </h1>
-        </div>
-        <div className="about-divider">
-          <div className="about-divider-img" css={{ color: colors.black }}>
-            <span className="fas fa-code" aria-hidden="true"></span>
-          </div>
-        </div>
-        <div className="about-link" css={{ backgroundColor: colors.blue }}>
-          <div className="about-link-text">
-            <Link
-              href="https://www.linkedin.com/in/tfitzpatrick3/"
-              primary={colors.white}
-              hover={colors.orange}
-            >
-              <span className="fab fa-linkedin" aria-hidden="true"></span>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="about-info-block">
-        <h2 className="about-info-text" css={{ color: colors.black }}>
-          I'm a rising senior undergraduate student in the College of
-          Engineering at Notre Dame. I am majoring in Computer Science, an area
-          of interest and excitement that I want to continuing exploring further
-          through my courses, extracurricular involvement, and internship/job
-          opportunities. I am particularly interested in the field of front-end
-          software and web application development.
-          <br />
-          <br />
-          Some of my other interests include lifting, gaming, business and
-          sports.
-        </h2>
-      </div>
-    </div>
+    <section id="about" css={sectionStyles}>
+      <p css={labelStyles}>About</p>
+      <div css={dividerStyles} />
+      <h2 css={headingStyles}>
+        I build things for the web and beyond.
+      </h2>
+      <p css={bodyStyles}>
+        I studied Computer Science at the University of Notre Dame, where I got
+        into front-end development, computer vision, and systems programming.
+        I'm drawn to building software that people actually interact with —
+        whether that's a full-stack web app, a real-time CV system, or a mobile
+        fitness tracker.
+      </p>
+      <p
+        css={[
+          bodyStyles,
+          css`
+            margin-top: 1rem;
+          `,
+        ]}
+      >
+        Outside of code: lifting, gaming, business, and sports.
+      </p>
+    </section>
   );
 }
 

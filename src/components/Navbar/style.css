@@ -1,17 +1,1 @@
-nav {
-  padding: 2rem;
-  text-align: center;
-  font-family: "Oxygen mono", monospace;
-  font-size: 25px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-}
+/* styles handled by Emotion */

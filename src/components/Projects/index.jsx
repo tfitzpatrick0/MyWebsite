@@ -1,52 +1,48 @@
 /** @jsxImportSource @emotion/react */
-import "./style.css";
-import Link from "../shared/Link";
+import { css } from "@emotion/react";
 import Project from "./Project";
-import { colors, projectsList } from "../../constants.js";
+import { colors, projectsList } from "../../constants";
+
+const sectionStyles = css`
+  padding: 3rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
+
+const labelStyles = css`
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: ${colors.accent};
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+`;
+
+const dividerStyles = css`
+  width: 40px;
+  height: 2px;
+  background: ${colors.border};
+  margin-bottom: 3rem;
+`;
+
+const gridStyles = css`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+`;
 
 function Projects() {
   return (
-    <div
-      id="projects"
-      className="projects-container"
-      css={{ backgroundColor: colors.honey }}
-    >
-      <div className="projects-header-block">
-        <div
-          className="projects-header"
-          css={{ backgroundColor: colors.orange }}
-        >
-          <h1 className="projects-header-text" css={{ color: colors.white }}>
-            My Projects
-          </h1>
-        </div>
-        <div className="projects-divider">
-          <div className="projects-divider-img" css={{ color: colors.black }}>
-            <span className="fas fa-code" aria-hidden="true"></span>
-          </div>
-        </div>
-        <div className="projects-link" css={{ backgroundColor: colors.orange }}>
-          <div className="projects-link-text">
-            <Link
-              href="https://github.com/tfitzpatrick0/"
-              primary={colors.white}
-              hover={colors.skyBlue}
-            >
-              <span className="fab fa-github" aria-hidden="true"></span>
-            </Link>
-          </div>
-        </div>
+    <section id="projects" css={sectionStyles}>
+      <p css={labelStyles}>Projects</p>
+      <div css={dividerStyles} />
+      <div css={gridStyles}>
+        {projectsList.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
       </div>
-      <div className="projects-info-block">
-        {projectsList.map((project, index) =>
-          index % 2 === 0 ? (
-            <Project layout="project-info-regular" project={project} />
-          ) : (
-            <Project layout="project-info-reverse" project={project} />
-          )
-        )}
-      </div>
-    </div>
+    </section>
   );
 }
 
